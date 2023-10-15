@@ -1,3 +1,12 @@
+/* Rounded cards */
+.cardContent,
+.cardPadder,
+.cardOverlayContainer,
+.blurhash-canvas,
+.dialog {
+    border-radius: 15px !important;
+}
+
 /* Rounded buttons */
 .navMenuOption,
 .navMenuOption:hover,
