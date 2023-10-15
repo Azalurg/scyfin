@@ -1,6 +1,10 @@
+@use 'abstracts' as *;
+
+
 /* Transparent header bar */
 .skinHeader {
-    background-color: transparent !important;
+    background-color: $shadow !important;
+    backdrop-filter: blur(50px) !important;
 }
 
 /* Rounded header buttons */
